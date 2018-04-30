@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="styleshee"t>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ 
 
 </head>
 <body>
@@ -18,7 +19,7 @@
 
 
     <div class="login-card">
-        <h1>Log-in</h1><br>
+        <h1>Register</h1><br>
       <form>
         <input id="uname" type="text" name="user" placeholder="Username">
         <input id="pw" type="password" name="pass" placeholder="Password">
@@ -27,7 +28,16 @@
     
       
     </div>
+    <div class="login-card">
+        <h1>Log-in</h1><br>
+      <form>
+        <input id="userName" type="text" name="user" placeholder="Username">
+        <input id="userPw"  type="password" name="pass" placeholder="Password">
+        <input type="submit" name="login" class="login login-submit" value="login" onclick="ulogin()">
+      </form>
+    
+      
+    </div>
 
-
-</body>
+  </body>
 </html>
